@@ -3,7 +3,7 @@
   "container": {
     "type": "DOCKER",
     "docker": {
-      "image": "mhausenblas/cicd-demo:latest",
+      "image": "rockrent/cicd-demo:latest",
       "network": "BRIDGE",
       "portMappings": [
         {
@@ -17,7 +17,7 @@
     "slave_public"
   ],
   "labels": {
-    "lastChangedBy": "michael@dcos.io"
+    "lastChangedBy": "raquel_bzcooking@yahoo.com"
   },
   "instances": 1,
   "cpus": 0.1,
